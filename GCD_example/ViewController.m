@@ -22,7 +22,7 @@
     
 }
 
-// MARK:为了让所有请求都完成后再进行UI操作 用了GCD是group+信号量方案解决
+// MARK:为了让所有请求都完成后再进行UI操作 用了GCD的group+信号量方案解决
 - (void)allRequest{
     
     dispatch_group_t group = dispatch_group_create();
