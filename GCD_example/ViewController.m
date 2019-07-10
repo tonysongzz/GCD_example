@@ -91,7 +91,7 @@
 
 // MARK:模拟network
 - (void)getDataWithSuccess:(void (^) (id response))success andFailed:(void (^) (NSError *error))failed{
-    success(@"请求成功");
+    success(@"请求成功");// 请求成功
 }
 
 @end
